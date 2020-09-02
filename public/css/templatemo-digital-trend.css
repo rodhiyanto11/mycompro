@@ -31,12 +31,13 @@ https://templatemo.com/tm-538-digital-trend
   }
 
   :root {
-    --primary-color:        #057a8d;
-    --secondary-color:      #f1c111;
+    --primary-color:        #4285F4;
+    --secondary-color:      #020202;
+    --active-color:       #01368b;
     --white-color:          #ffffff;
     --dark-color:           #171819;
     --project-bg:           #f0f8ff;
-    --menu-bg:              #0c8195;
+    --menu-bg:              #4285F4;
 
     --title-color:          #15141a;
     --gray-color:           #909090;
@@ -192,7 +193,7 @@ https://templatemo.com/tm-538-digital-trend
   a:hover, 
   a:active, 
   a:focus {
-    color: var(--secondary-color);
+    color: var(--active-color);
     outline: none;
     text-decoration: none;
   }
@@ -244,7 +245,7 @@ https://templatemo.com/tm-538-digital-trend
 
   .nav-link.active,
   .nav-link:hover {
-    color: var(--secondary-color);
+    color: var(--active-color);
   }
 
   .navbar-expand-lg .navbar-nav .nav-link {
@@ -565,7 +566,7 @@ https://templatemo.com/tm-538-digital-trend
   -----------------------------------------*/
 
   .site-footer {
-    background: var(--dark-color);
+    background: var(--primary-color);
     padding: 7em 0 6em 0;
   }
 
@@ -709,5 +710,14 @@ https://templatemo.com/tm-538-digital-trend
       margin-left: 0;
     }
   }
+.slideanim i{
+  font-size: 50px;
+  margin-bottom: 25px;
+  color : var(--primary-color);
+}
+.service-text{
+  color : var(--gray-color);
+  font-size: 14px;
+}
 
 
